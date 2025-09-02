@@ -18,7 +18,7 @@ imax = 20;
         break
       endif
     endif
-    t_roots(ii+1) = t_roots(ii) - func(t_roots(ii))/func_d(t_roots(ii));
+    t_roots(ii+1) = t_roots(ii) - func(t_roots(ii))/func_d(t_roots(ii))
 
   endfor
 
